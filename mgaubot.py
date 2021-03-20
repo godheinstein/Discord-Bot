@@ -19,11 +19,8 @@ async def on_ready():
 
 @client.command(aliases=["HELLO"])
 async def hello(ctx):
-    await ctx.send("Hello Dipshit")
+    await ctx.send("Hello friend")
 
-@client.command(aliases=["FUCK"])
-async def fuck(ctx):
-    await ctx.send("Fuck You Too")
 
 #clear function
 @client.command(name="clear", aliases=["purge"])
@@ -96,4 +93,4 @@ async def create_poll(ctx, question, *options):
             await message.add_reaction(emoji)
 
 
-client.run("NzQyNjkwMTM3MDk5NzMxMDU1.XzJyFw.3wtHTSgcj6IdGIfD10cVL5sDZe0")
+client.run("input your discord server code")
